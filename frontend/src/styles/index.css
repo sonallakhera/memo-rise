@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Avenir Next', 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at top left, #eef6f1 0%, #f9faf9 45%, #f4eee0 100%);
+  color: #14281d;
+  min-height: 100vh;
+}
+
+.card-shadow {
+  box-shadow: 0 16px 40px rgba(20, 40, 29, 0.12);
+}
